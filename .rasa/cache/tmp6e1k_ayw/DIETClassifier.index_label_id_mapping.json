@@ -1,0 +1,18 @@
+{
+  "0": "affirm",
+  "1": "affirm_ml",
+  "2": "book_car",
+  "3": "book_car_ml",
+  "4": "bot_challenge",
+  "5": "bot_challenge_ml",
+  "6": "deny",
+  "7": "deny_ml",
+  "8": "goodbye",
+  "9": "goodbye_ml",
+  "10": "greet",
+  "11": "greet_ml",
+  "12": "mood_great",
+  "13": "mood_great_ml",
+  "14": "mood_unhappy",
+  "15": "mood_unhappy_ml"
+}

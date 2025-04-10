@@ -1,0 +1,63 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - namaste
+
+- intent: ask_programs
+  examples: |
+    - What programs do you offer?
+    - Tell me about the RP2 programs
+    - What are the courses in RP2?
+    - Can you list the RP2 tracks?
+
+- intent: ask_features
+  examples: |
+    - What are the features of the RP2 program?
+    - What skills will I learn?
+    - Tell me the main features
+    - What does the program focus on?
+
+- intent: ask_status
+  examples: |
+    - What is the current status of RP2?
+    - How many workshops have you done?
+    - Tell me your achievements
+    - How many webinars have you conducted?
+
+- intent: ask_unique
+  examples: |
+    - What makes RP2 unique?
+    - Why should I choose RP2?
+    - What is special about RP2?
+
+- intent: ask_contact
+  examples: |
+    - How can I contact RP2?
+    - Give me your contact number
+    - I want to talk to someone
+    - Contact details please
+
+- intent: event_links
+  examples: |
+    - Could please provide me any link to refer the events you mentioned
+    - any links related to events
+    - events links
+    - links for events happening in your company
+    - refer me page to get event related informatoion
+    - links for events
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - thanks, bye
+    - see you later

@@ -1,0 +1,40 @@
+version: "3.1"
+
+stories:
+
+- story: basic info path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_programs
+  - action: utter_programs
+
+- story: feature path
+  steps:
+  - intent: ask_features
+  - action: utter_features
+ 
+- story: status path
+  steps:
+  - intent: ask_status
+  - action: utter_status
+
+- story: uniqueness path
+  steps:
+  - intent: ask_unique
+  - action: utter_unique
+
+- story: contact path
+  steps:
+  - intent: ask_contact
+  - action: utter_contact
+
+- story: event link
+  steps:
+  - intent: event_links
+  - action: utter_event_links_up
+
+- story: exit path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

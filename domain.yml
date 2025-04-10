@@ -1,0 +1,66 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_programs
+  - ask_features
+  - ask_status
+  - ask_unique
+  - ask_contact
+  - goodbye
+  - event_links
+
+responses:
+  utter_greet:
+  - text: "Hello! Welcome to RP2. How can I help you today?"
+
+  utter_programs:
+  - text: |
+      The programs offered are:
+      - ROUNDED DATA SCIENCE WITH GEN-AI PROFESSIONAL
+      - ROUNDED FULL STACK PYTHON PROFESSIONAL
+      - ROUNDED DATA ANALYTICS & BUSINESS INTELLIGENCE(BI) PROFESSIONAL
+      - ROUNDED MERN STACK PROFESSIONAL
+      - ROUNDED MEAN STACK PROFESSIONAL
+      - ROUNDED DATA ENGINEERING PROFESSIONAL
+      - ROUNDED FULL STACK PHP PROFESSIONAL
+
+  utter_features:
+  - text: |
+      RP2 focuses on 4 main features:
+      - Technical Skills
+      - Soft Skills
+      - Behavioral Skills
+      - Placement Assistance
+
+  utter_status:
+  - text: |
+      Current Status:
+      - 100+ RP2 Graduates
+      - 99+ Workshops
+      - 100+ Seminars
+      - 150+ Webinars
+      - 50+ Industrial Visits
+
+  utter_unique:
+  - text: |
+      RP2 is unique because it is not just classroom training.
+      It provides real-life professional experience and builds your skills through hands-on projects, making you job-ready.
+
+  utter_event_links_up:
+  - text: |
+      Click on this link : https://rp2.center/events/
+
+  utter_contact:
+  - text: |
+      Contact us at:
+      +91 98461 70432
+      +91 87144 55912
+
+  utter_goodbye:
+  - text: "Thank you! Have a great day."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
