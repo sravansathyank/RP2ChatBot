@@ -171,4 +171,3 @@ wsproto==1.2.0
 yarl==1.19.0
 rasa==3.6.2
 rasa-sdk==3.6.2
-python==3.10.0
